@@ -4,7 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
 
-public class CalculatorTest {
+public class Exercise1_1JUnitSetupTest {
 
     Calculator calculator = new Calculator();
 
