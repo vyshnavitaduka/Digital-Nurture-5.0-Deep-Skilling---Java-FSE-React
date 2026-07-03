@@ -1,20 +1,16 @@
-package com.library;
+package com.example;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.library.service.BookService;
-
-public class LibraryManagementApplication {
-
+public class App {
     public static void main(String[] args) {
-
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        BookService service =
-                context.getBean("bookService", BookService.class);
+        BookService bookService = (BookService) context.getBean("bookService");
 
-        service.display();
+        bookService.getBookDetails(101);
+        bookService.addNewBook("Spring in Action");
     }
 }
