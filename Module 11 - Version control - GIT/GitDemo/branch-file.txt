@@ -1,0 +1,8 @@
+This file was created on a feature branch to demonstrate Git branching.
+
+Steps typically practiced with this file:
+1. git branch feature-branch
+2. git checkout feature-branch
+3. Edit this file and commit the change
+4. git checkout main
+5. git merge feature-branch

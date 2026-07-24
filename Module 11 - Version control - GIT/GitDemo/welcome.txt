@@ -1,0 +1,10 @@
+Welcome to the GitDemo repository!
+
+This project is used to practice core Git commands:
+- git init
+- git add
+- git commit
+- git branch
+- git merge
+- git log
+- git status
